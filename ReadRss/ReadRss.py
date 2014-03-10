@@ -8,7 +8,7 @@ import urllib
 from xml.dom.minidom import parseString
 #all these imports are standard on most modern python implementations
  
- #.....
+ #.....Checked From and First Changed
  
  
  # if you want to open file in a directory
