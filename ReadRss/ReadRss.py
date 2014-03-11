@@ -14,7 +14,7 @@ from xml.dom.minidom import parseString
  # if you want to open file in a directory
  # file = open('rss.xml')
  #  print file.read()
-
+ #WROKS at Uni
  
 #download the file:
 file = urllib2.urlopen('http://www.somedomain.com/somexmlfile.xml')
@@ -29,7 +29,7 @@ file = urllib2.urlopen(urlLink)
 data = file.read()
 #close file because we dont need it anymore:
 file.close()
-
+  
 #parse the xml you downloaded
 dom = parseString(data)
 
